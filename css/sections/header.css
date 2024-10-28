@@ -1,31 +1,31 @@
 .header__nav {
-    display: flex;
-    overflow: hidden;
+  display: flex;
+  overflow: hidden;
 }
 
 .header__logo {
-    flex: 1;
-    display: flex;
+  flex: 1;
+  display: flex;
 
-    position: relative;
-    padding: 20px;
+  position: relative;
+  padding: 20px;
 }
 
 .header__logo-overlay {
-    position: absolute;
-    inset: 0;
-    width: 100%;
+  position: absolute;
+  inset: 0;
+  width: 100%;
 
-    background-color: var(--primary-color);
-    z-index: -1;
+  background-color: var(--primary-color);
+  z-index: -1;
 }
 
 .header__logo h4 {
-    font-size: 24px;
-    padding-left: 30px;
-    text-transform: uppercase;
-    font-family: var(--playfair-display);
-    color: #fff;
+  font-size: 24px;
+  padding-left: 30px;
+  text-transform: uppercase;
+  font-family: var(--playfair-display);
+  color: #fff;
 }
 
 .header__menu,
@@ -62,4 +62,20 @@
   gap: 20px;
 
   position: relative;
+}
+
+.mobile-menu {
+  display: none;
+  /* Hidden by default */
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.9);
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  z-index: 1000;
 }
