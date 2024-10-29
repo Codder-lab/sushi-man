@@ -10,9 +10,15 @@ AOS.init({
 // JavaScript to toggle the mobile menu
 document.addEventListener("DOMContentLoaded", function () {
     const menuIcon = document.getElementById("mobile-menu-icon");
+    const closeIcon = document.getElementById("close-menu-icon");
     const mobileMenu = document.getElementById("mobile-menu");
   
     menuIcon.addEventListener("click", function () {
       mobileMenu.classList.toggle("show"); // Toggle the 'show' class on the mobile menu
     });
-  });
+
+    // Close the mobile menu
+    closeIcon.addEventListener("click", function () {
+      mobileMenu.classList.remove("show"); // Hide the mobile menu
+    });
+});

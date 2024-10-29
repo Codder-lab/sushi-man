@@ -79,3 +79,27 @@
   list-style: none;
   z-index: 1000;
 }
+
+/* Close Icon */
+.close-icon {
+  display: none;
+  /* Hidden by default */
+  font-size: 32px;
+  /* Adjust size as needed */
+  color: #333;
+  /* Change color as needed */
+  cursor: pointer;
+  /* Change cursor on hover */
+}
+
+/* Show close icon when mobile menu is open */
+.mobile-menu.show .close-icon {
+  display: block;
+  /* Show close icon when menu is visible */
+}
+
+/* Hide menu icon when the mobile menu is open */
+.mobile-menu.show .menu-icon {
+  display: none;
+  /* Hide the menu icon when the menu is open */
+}
