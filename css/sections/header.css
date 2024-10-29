@@ -90,8 +90,6 @@
   /* Change color as needed */
   cursor: pointer;
   /* Change cursor on hover */
-  align-self: flex-end;
-  margin-right: 20px;
 }
 
 /* Show close icon when mobile menu is open */
@@ -104,10 +102,4 @@
 .mobile-menu.show .menu-icon {
   display: none;
   /* Hide the menu icon when the menu is open */
-}
-
-.search-icon {
-  display: none;
-  margin-left: 100px;
-  margin-bottom: 100px;
 }
