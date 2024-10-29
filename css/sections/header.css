@@ -90,6 +90,8 @@
   /* Change color as needed */
   cursor: pointer;
   /* Change cursor on hover */
+  align-self: flex-end;
+  margin-right: 20px;
 }
 
 /* Show close icon when mobile menu is open */
